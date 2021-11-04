@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(38, 36, 36);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.green {
+  background-color: rgb(81, 189, 81);
+}
+
+.yellow {
+  background-color: orange;
+}
+
+.red {
+  background-color: rgb(202, 191, 191);
+}
